@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+
+    <link rel="icon" href="./imagens/emoji.webp">
+    <link rel="stylesheet" href="./main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <header>
+            <h1>Agenda de Contatos</h1>
+        </header>
+    
+        <main>
+            <button title="Criar contato" onclick="abrirFormulario()" class="Pesquisa">👤➕Criar novo contato</button>
+            <input title="Pesquise pelo nome" class="Pesquisa" type="search"  placeholder="🔍Pesquise Contatos">
+        </main>
+        
+        <form>
+            <table>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </form>
+
+    </section>
+
+    <div id="sobrePosiçao"></div>
+
+    <section id="formulario">
+        <header>
+            <h1>Criar contato</h1>
+        </header>
+
+        <form id="nomeNumero">
+            <input type="text" id="nome" placeholder="Nome" title="Digite o nome do seu contato">
+            <br>
+            <input type="tel" id="numero" placeholder="Contato" title="Digite o número do seu contato">
+            <br>
+            <button title="Salvar contato" type="submit">Salvar</button>
+        </form>
+    </section>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>

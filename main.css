@@ -1,0 +1,138 @@
+body {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Roboto", serif;
+    background-color: rgb(128, 87, 87);
+}
+
+section {
+    margin-top: 5%;
+    background-color: rgb(255, 255, 255);
+    padding: 50px 45px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+}
+
+h1 {
+    font-family: "Bungee", serif;
+    margin-top: 1px;
+    font-size: 40px
+}
+
+section .Pesquisa {
+    height: 35px;
+    width: 400px;
+    text-align: center;
+    font-family: "Bungee", serif;
+    font-size: 16px;
+}
+
+.letraInicial div {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: rgba(175, 35, 77, 0.884);
+    color: aliceblue;
+    border-radius: 50%;
+    font-family: "Bungee", serif;
+}
+
+table {
+    margin-top: 5px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td {
+    border-bottom: 1px solid rgb(238, 229, 229);
+    border-top: 1px solid rgb(238, 229, 229);
+    font-size: 24px;
+    padding: 5px 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+td button {
+    border-color: rgba(156, 156, 156, 0.397);
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+button:hover, .Pesquisa:hover, tr:hover {
+    background-color: rgba(55, 168, 102, 0.377);
+}
+
+.cor {
+    background-color: rgba(0, 255, 170, 0.096);
+}
+
+main .Pesquisa{
+    background-color: rgba(0, 255, 170, 0.096);
+    border-color: rgba(0, 0, 0, 0.377);
+}
+
+/*criar contato*/
+#formulario {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+}
+
+#nomeNumero input {
+    padding: 5px 0;
+    width: 400px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: "Roboto", serif;
+    font-weight: bold;
+}
+
+#nomeNumero button {
+    cursor: pointer;
+    width: 400px;
+    padding: 5px 0;
+    font-family: "Bungee", serif;
+    font-size: 18px;
+    background-color: rgba(4, 255, 100, 0.527);
+}
+
+#nomeNumero button:hover {
+    background-color: rgb(25, 199, 97);;
+    border: 3px solid black;
+}
+
+#nomeNumero input:hover {
+    border: 3px solid black;
+}
+
+#sobrePosiçao {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.795);
+}
+
+.Max {
+    width: 380px;
+}
+
+.Max1 {
+    width: 200px;
+}
+
+.edit, .delete {
+    font-size: 18px;
+}
+
